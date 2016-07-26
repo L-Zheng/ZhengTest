@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UISwitch *mySwitch = [[UISwitch alloc] init];
+    mySwitch.center = self.view.center;
+    [self.view addSubview:mySwitch];
+    
 }
 
 - (void)didReceiveMemoryWarning {
