@@ -16,6 +16,7 @@
 		0F6EB4B01D473B4F00789CBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6EB4AE1D473B4F00789CBB /* LaunchScreen.storyboard */; };
 		0F6EB4BB1D473B4F00789CBB /* ZhengAppTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6EB4BA1D473B4F00789CBB /* ZhengAppTestTests.m */; };
 		0F6EB4C61D473B4F00789CBB /* ZhengAppTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6EB4C51D473B4F00789CBB /* ZhengAppTestUITests.m */; };
+		0F6EB4D51D473CD700789CBB /* NewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6EB4D41D473CD700789CBB /* NewVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0F6EB4C11D473B4F00789CBB /* ZhengAppTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhengAppTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6EB4C51D473B4F00789CBB /* ZhengAppTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhengAppTestUITests.m; sourceTree = "<group>"; };
 		0F6EB4C71D473B4F00789CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6EB4D31D473CD700789CBB /* NewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewVC.h; sourceTree = "<group>"; };
+		0F6EB4D41D473CD700789CBB /* NewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				0F6EB4A11D473B4F00789CBB /* AppDelegate.m */,
 				0F6EB4A31D473B4F00789CBB /* ViewController.h */,
 				0F6EB4A41D473B4F00789CBB /* ViewController.m */,
+				0F6EB4D31D473CD700789CBB /* NewVC.h */,
+				0F6EB4D41D473CD700789CBB /* NewVC.m */,
 				0F6EB4A61D473B4F00789CBB /* Main.storyboard */,
 				0F6EB4AC1D473B4F00789CBB /* Assets.xcassets */,
 				0F6EB4AE1D473B4F00789CBB /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F6EB4D51D473CD700789CBB /* NewVC.m in Sources */,
 				0F6EB4A51D473B4F00789CBB /* ViewController.m in Sources */,
 				0F6EB4A21D473B4F00789CBB /* AppDelegate.m in Sources */,
 				0F6EB4AB1D473B4F00789CBB /* ZhengAppTest.xcdatamodeld in Sources */,
@@ -500,6 +506,7 @@
 				0F6EB4CC1D473B4F00789CBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F6EB4CD1D473B4F00789CBB /* Build configuration list for PBXNativeTarget "ZhengAppTestTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +515,7 @@
 				0F6EB4CF1D473B4F00789CBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F6EB4D01D473B4F00789CBB /* Build configuration list for PBXNativeTarget "ZhengAppTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +524,7 @@
 				0F6EB4D21D473B4F00789CBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
