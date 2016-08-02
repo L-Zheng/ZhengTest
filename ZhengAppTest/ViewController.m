@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DevelopmentTool.h"
 
 @interface ViewController ()
 
@@ -17,9 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UISwitch *mySwitch = [[UISwitch alloc] init];
-    mySwitch.center = self.view.center;
-    [self.view addSubview:mySwitch];
+    NSLog(@"%d",[DevelopmentTool isFirstSetupApp]);
+    NSLog(@"%d",[DevelopmentTool isDebugPrjConfig]);
     
 }
 
