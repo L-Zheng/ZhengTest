@@ -21,6 +21,9 @@
     NSLog(@"%d",[DevelopmentTool isFirstSetupApp]);
     NSLog(@"%d",[DevelopmentTool isDebugPrjConfig]);
     
+    
+    NSLog(@"---------------修改gitHub密码后测试上传-------------------");
+    
 }
 
 - (void)didReceiveMemoryWarning {
